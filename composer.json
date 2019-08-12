@@ -1,0 +1,35 @@
+{
+    "name": "assert6/taobao-sign",
+    "description": "淘宝前端接口签名.",
+    "license": "Apache-2.0",
+    "keywords": [
+        "taobao",
+        "sign",
+        "mtop"
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Assert6\\Mtop\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Assert6Test\\Mtop\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit -c phpunit.xml"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer"
+        }
+    }
+}
